@@ -1,6 +1,6 @@
 Images -> gris
-f=tf.Variable(initial_value=tf.range(-10,10,20/576,dtype=tf.float32),trainable=False)
-f fixé
+f=tf.Variable(initial_value=tf.truncated_normal(mean=0.0,stddev=20,dtype=tf.float32,shape=[576]),trainable=False)
+f fixÃ©
 pas de distored_inputs
 
 
